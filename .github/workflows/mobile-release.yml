@@ -6,8 +6,8 @@ permissions:
   discussions: write
 
 env:
-  PROJECT_NAME: PsychEngine
-  REPO_PATH: MobilePorting/FNF-PsychEngine-Mobile
+  PROJECT_NAME: BFDI26-Mobile
+  REPO_PATH: hesanaltdoesgithub/bfdi26-mobile
 
 jobs:
   get-commit-hash:
