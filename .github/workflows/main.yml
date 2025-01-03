@@ -50,7 +50,7 @@ jobs:
           haxelib install flixel 5.5.0
           haxelib install flixel-tools
           haxelib install flixel-ui 2.6.1
-          haxelib install flixel-addons
+          haxelib install flixel-addons 3.2.2
           haxelib install hxvlc 1.5.5
           haxelib git flxanimate https://github.com/FunkinCrew/flxanimate
           haxelib install hscript
