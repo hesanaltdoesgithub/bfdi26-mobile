@@ -16,7 +16,7 @@ import mobile.CopyState;
 class Main extends Sprite
 {
 
-	public static final PSYCH_VERSION:String = '0.6.3';
+	public static final PSYCH_VERSION:String = '0.7.3';
 	public static final NM_VERSION:String = '0.2';
 
 	public static var FUNKIN_VERSION(get,never):String;
