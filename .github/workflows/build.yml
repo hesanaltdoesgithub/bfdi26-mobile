@@ -21,7 +21,7 @@ on:
 
 env:
   HAXE_VERSION: 4.3.2
-  PROJECT_NAME: PsychEngine
+  PROJECT_NAME: BFDI-26
 
 jobs:
   build:
@@ -44,6 +44,7 @@ jobs:
         run: |
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
+          haxelib set flixel 5.5.0
 
       - name: Configure Android
         if: inputs.name == 'Android'
