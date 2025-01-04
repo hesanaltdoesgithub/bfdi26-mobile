@@ -53,6 +53,7 @@ jobs:
           haxelib install tjson 1.4.0
           haxelib install compiletime 2.8.0
           haxelib install hxdiscord_rpc 1.2.4
+          haxelib install hxvlc 1.5.5
 
       - name: Configure Android
         if: inputs.name == 'Android'
