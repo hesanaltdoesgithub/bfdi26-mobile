@@ -7,11 +7,13 @@ echo This might take a few moments depending on your internet speed.
 haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp --quiet
 haxelib git lime https://github.com/mcagabe19-stuff/lime --quiet
 haxelib install openfl 9.3.3 --quiet
-haxelib git flixel https://github.com/MobilePorting/flixel 5.5.0 --quiet
+haxelib install flixel 5.5.0 --quiet
+haxelib set flixel 5.5.0
 haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-tools 1.5.1 --quiet
 haxelib install hscript-iris 1.1.0 --quiet
 haxelib install tjson 1.4.0 --quiet
+haxelib install compiletime 2.8.0 --quiet
 haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e --quiet
 haxelib git linc_luajit https://github.com/MobilePorting/linc_luajit-0.7plus --quiet
 haxelib install hxdiscord_rpc 1.2.4 --quiet --skip-dependencies
