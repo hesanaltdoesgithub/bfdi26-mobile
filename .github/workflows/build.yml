@@ -47,7 +47,7 @@ jobs:
           
       - name: Set Correct Flixel Version
         run: |
-          haxelib set flixel 5.5.0 y
+          haxelib install flixel 5.5.0
 
       - name: Configure Android
         if: inputs.name == 'Android'
