@@ -44,6 +44,9 @@ jobs:
         run: |
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
+          
+      - name: Set Correct Flixel Version
+        run: |
           haxelib set flixel 5.5.0
 
       - name: Configure Android
