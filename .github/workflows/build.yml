@@ -49,6 +49,10 @@ jobs:
         run: |
           haxelib install flixel 5.5.0
           haxelib install flixel-ui 2.6.1
+          haxelib install flixel-addons 3.2.2
+          haxelib install tjson 1.4.0
+          haxelib install compiletime 2.8.0
+          haxelib install hxdiscord_rpc 1.2.4
 
       - name: Configure Android
         if: inputs.name == 'Android'
